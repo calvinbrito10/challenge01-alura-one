@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+.principal__interacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__interacao__box__botao {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.principal__interacao__texto {
+    width: 42.5rem;
+}
