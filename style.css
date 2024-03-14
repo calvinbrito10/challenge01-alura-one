@@ -3,22 +3,36 @@
 *{
     margin: 0;
     padding: 0;
+    
+}
+
+body {
+    box-sizing: border-box;
     background: var(--Light-blue-light-blue-100, #F3F5FC);
 }
 
 .principal {
     display: flex;
+    align-items: flex-start;
+    width: 50%;
     flex-direction: row;
     gap: 200px;
 }
 
+.principal__logo {
+    padding: 5% 0% 0% 5%;
+}
+
+
 .principal__interacao {
     display: flex;
     flex-direction: column;
+    padding: 20% 0% 10% 0%;
 }
 
 .principal__interacao__texto {
     color: #0A3871;
+    background: var(--Light-blue-light-blue-100, #F3F5FC);
     border: 0px solid;
     font-family: Inter;
     font-size: 32px;
@@ -36,6 +50,7 @@
     justify-content: center;
     flex-direction: row;
     gap: 1.5rem;
+    
 }
 
 .principal__interacao__box__botao__button__criptografar {
@@ -63,3 +78,7 @@
     width: 400px;
     height: 944px;
 }
+
+textarea {
+    resize: none;
+  }
